@@ -50,7 +50,7 @@ html {
 }
 
 .navbar.sticky .logo a span {
-    color: #FF0000;
+    color: #ffff00;
 }
 
 .navbar .menu li {
@@ -67,17 +67,17 @@ html {
 }
 
 .navbar .menu li a:hover {
-    color: #FF0000;
+    color: #ffff00;
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #FF0000;
+    color: #ffff00;
 }
 
 /*  Home   inicio  */
 .home {
     display: flex;
-    background: url(image/bannerjava.png) no-repeat;
+    background: url(image/bann.png) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -105,7 +105,7 @@ html {
 }
 
 .home .home-content .text-3 span {
-    color: #FF0000;
+    color: #ffff00;
     font-weight: 500;
 }
 
@@ -127,7 +127,7 @@ html {
 
 /*  Menu  Mobile  */
 .menu-btn {
-    color: #fff;
+    color: #333;
     font-size: 26px;
     cursor: pointer;
     display: none;
@@ -141,8 +141,8 @@ html {
     bottom: 30px;
     text-align: center;
     line-height: 50px;
-    color: #fff;
-    background: #FF0000;
+    color: #333;
+    background: #ffff00;
     border-radius: 6px;
     font-size: 30px;
     z-index: 9999;
@@ -191,7 +191,7 @@ section .title::after {
     left: 50%;
     font-size: 20px;
     background: #fff;
-    color: #FF0000;
+    color: #000000;
     padding: 5px;
     transform: translateX(-50%);
 }
@@ -236,7 +236,7 @@ footer {
 }
 
 .about .about-content .right .text span {
-    color: #FF0000;
+    color: #333;
 }
 
 .about .about-content .right p {
@@ -245,19 +245,19 @@ footer {
 
 .about .about-content .right a {
     display: inline-block;
-    background: #120A8F;
-    color: #fff;
+    background: #ffff00;
+    color: #333;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #FF0000;
+    border: 2px solid #333;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-    color: #FF0000;
+    color: #333;
     background: none;
 }
 
@@ -271,7 +271,7 @@ footer {
 /*  sessão serviços */
 .services,
 .teams {
-    background: #111;
+    background: #333;
     color: #fff;
 }
 
@@ -282,12 +282,12 @@ footer {
 
 .services .title::after,
 .teams .title::after {
-    background: #111;
-    content: "E soluções";
+    background: #fff;
+    content: "Clique e veja";
 }
 
 .services .serv-content .card {
-    width: calc(33% - 20px);
+    width: calc(200% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -297,7 +297,7 @@ footer {
 }
 
 .services .serv-content .card:hover {
-    background: #FF0000;
+    background: #fff;
 }
 
 .services .serv-content .card .box {
@@ -305,12 +305,12 @@ footer {
 }
 
 .services .serv-content .card:hover .box {
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 .services .serv-content .card ion-icon {
-    font-size: 70px;
-    color: #120A8F;
+    font-size: 10px;
+    color: #111112;
 }
 
 .services .serv-content .card:hover ion-icon {
@@ -318,7 +318,7 @@ footer {
 }
 
 .services .serv-content .card .text {
-    font-size: 25px;
+    font-size: 5px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -344,19 +344,19 @@ footer {
 
 .skills .skills-content .left a {
     display: inline-block;
-    background: #120A8F;
-    color: #fff;
+    background: #ffff00;
+    color: #333;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #FF0000;
+    border: 2px solid #333;
     transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover {
-    color: #FF0000;
+    color: #333;
     background: none;
 }
 
@@ -388,7 +388,7 @@ footer {
     height: 100%;
     top: 0;
     left: 0;
-    background: #FF0000;
+    background: #333;
 }
 
 .skills .skills-content .right .html::before {
@@ -425,7 +425,7 @@ footer {
 }
 
 .teams .carousel .card:hover {
-    background: #120A8F;
+    background: #333;
 }
 
 .teams .carousel .card img {
@@ -433,7 +433,7 @@ footer {
     height: 170px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid #FF0000;
+    border: 5px solid #ffff00;
     transition: all 0.3s ease;
 }
 
@@ -469,7 +469,7 @@ footer {
     height: 14px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid #FF0000 !important;
+    border: 2px solid #ffff00 !important;
     transition: all 0.3s ease;
 }
 
@@ -480,7 +480,7 @@ footer {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: #120A8F !important;
+    background: #000000 !important;
 }
 
 /*  sessão Contato  */
@@ -530,7 +530,7 @@ footer {
 
 .contact .contact-content .row ion-icon {
     font-size: 25px;
-    color: #FF0000;
+    color: #000000;
 }
 
 .contact .rigth form .fields {
@@ -582,9 +582,9 @@ footer {
 .contact .rigth form .button button {
     width: 100%;
     height: 100%;
-    border: 2px solid #FF0000;
-    background: #120A8F;
-    color: #fff;
+    border: 2px solid #ffff00;
+    background: #ffff00;
+    color: #333;
     font-size: 20px;
     font-weight: 500;
     border-radius: 6px;
@@ -593,7 +593,7 @@ footer {
 }
 
 .contact .rigth form .button button:hover {
-    color: #FF0000;
+    color: #333;
     background: none;
 }
 
@@ -606,7 +606,7 @@ footer {
 }
 
 footer span a {
-    color: #FF0000;
+    color: #ffff00;
     text-decoration: none;
 }
 
